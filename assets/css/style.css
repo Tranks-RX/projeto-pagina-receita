@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+* {
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit';
+    box-sizing: border-box;
+    padding: 0;
+}
+
+main {
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 720px;
+    padding: 60px;
+    margin-top: 50px;
+}
+
+main *,
+main {
+    background-color: hsl(330, 100%, 98%);
+}
+
+.titulo h1,
+p {
+    font-family: 'Young Serif';
+    font-weight: 400;
+
+}
+
+.titulo h1 {
+    font-size: 40px;
+    color: rgb(36, 36, 36);
+}
+
+.titulo p {
+    font-weight: lighter;
+    font-size: 13px;
+    color: hsl(30, 18%, 59%);
+}
+
+.titulo img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 600px;
+}
+
+.tempo-preparo,
+.tempo-preparo * {
+    background-color: hsl(30, 54%, 90%);
+    padding-bottom: 8px;
+}
+
+.tempo-preparo h3,
+.custom-list li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.tempo-preparo li{
+    padding-left: 15px;
+}
+
+.tempo-preparo {
+    padding: 5px 0 5px 50px;
+    border-radius: 15px;
+}
+
+.ingredientes {
+    padding: 0px 0px 8px 15px;
+}
+
+.ingredientes * {
+    padding-bottom: 8px;
+}
+
+.ingredientes h2 {
+    font-family: 'Young Serif';
+    font-weight: lighter;
+    font-size: 26px;
+}
+
+.ingredientes h2,
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredientes ul li{
+    padding-left: 15px;
+}
+
+.instrucao{
+    padding: 0px 0px 8px 15px;
+}
+
+.instrucao *{
+    padding-bottom: 10px;
+}
+
+.instrucao h2{
+    font-size: 26px;
+}
+
+.instrucao h2, ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.instrucao ol li{
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.nutricao{
+    padding: 0px 0px 8px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nutricao h2{
+    font-size: 26px;
+    font-family: 'Young Serif';
+    font-weight: lighter;
+}
+
+.nutricao p{
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Outfit';
+}
+
+.nutricao h2, #cor-tabela{
+    color: hsl(14, 45%, 36%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer a {
+    color: hsl(0, 0%, 0%);
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: darkmagenta;
+    text-decoration: underline;
+}
