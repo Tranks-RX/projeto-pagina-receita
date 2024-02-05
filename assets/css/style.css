@@ -62,7 +62,7 @@ p {
     color: hsl(332, 51%, 32%);
 }
 
-.tempo-preparo li{
+.tempo-preparo li {
     padding-left: 15px;
 }
 
@@ -90,74 +90,54 @@ ul li::marker {
     color: hsl(14, 45%, 36%);
 }
 
-.ingredientes ul li{
+.ingredientes ul li {
     padding-left: 15px;
 }
 
-.instrucao{
+.instrucao {
     padding: 0px 0px 8px 15px;
 }
 
-.instrucao *{
+.instrucao * {
     padding-bottom: 10px;
 }
 
-.instrucao h2{
+.instrucao h2 {
     font-size: 26px;
 }
 
-.instrucao h2, ol li::marker{
+.instrucao h2,
+ol li::marker {
     color: hsl(14, 45%, 36%);
 }
 
-.instrucao ol li{
+.instrucao ol li {
     padding-left: 15px;
     font-size: 15px;
 }
 
-.nutricao{
+.nutricao {
     padding: 0px 0px 8px 15px;
     display: flex;
     flex-direction: column;
 }
 
-.nutricao h2{
+.nutricao h2 {
     font-size: 26px;
     font-family: 'Young Serif';
     font-weight: lighter;
 }
 
-.nutricao p{
+.nutricao p {
     font-size: 16px;
     font-weight: lighter;
     font-family: 'Outfit';
 }
 
-.nutricao h2, #cor-tabela{
+.nutricao h2,
+#cor-tabela {
     color: hsl(14, 45%, 36%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
     font-size: 14px;
@@ -169,7 +149,35 @@ ul li::marker {
     text-decoration: none;
 }
 
-.footer a:hover{
+.footer a:hover {
     color: darkmagenta;
     text-decoration: underline;
+}
+
+@media screen  {
+    tr.hr-row td img {
+
+
+        display: flex;
+        /* Garante que a imagem seja exibida em dispositivos móveis */
+
+        max-width: 100%;
+        /* Garante que a imagem não ultrapasse a largura da tela */
+
+        height: auto;
+        /* Mantém a proporção da imagem */
+    }
+
+    tr.hr-row td hr {
+
+        display: block;
+        /* Torna a linha horizontal visível em dispositivos móveis */
+
+        margin-top: 10px;
+        /* Adiciona um espaço entre a imagem e a linha horizontal */
+    }
+    .titulo img {
+        width: 100%;
+        height: auto;
+    }
 }
