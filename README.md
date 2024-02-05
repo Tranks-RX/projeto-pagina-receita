@@ -27,7 +27,7 @@ meu-projeto/
 1. Clone ou faça o download deste repositório em sua máquina local.
 
     ```
-    git clone https://github.com/Tranks-RX/projeto-receita
+    git clone https://github.com/Tranks-RX/projeto-pagina-receita
     ```
 
 2. Abra o arquivo `index.html` em seu navegador para visualizar o projeto.
